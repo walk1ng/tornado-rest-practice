@@ -5,6 +5,7 @@ from tornado import ioloop
 import tornado.httpserver
 from tornado.options import define, options, parse_command_line
 import config
+from motorengine import connect
 
 define('port', group='Webserver', type=int, default=8081, help='run on the given port')
 

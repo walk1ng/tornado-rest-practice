@@ -1,6 +1,7 @@
 # coding:utf-8
 
-from handler.api.base import BaseHanlder
+from handler.api.base import BaseHandler
 
-class TestHandler(BaseHanlder):
-
+class TestHandler(BaseHandler):
+    def put(self):
+        pass
